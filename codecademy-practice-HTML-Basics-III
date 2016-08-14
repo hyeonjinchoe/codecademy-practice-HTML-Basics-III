@@ -1,0 +1,381 @@
+/*HTML Basics III*/
+
+/*1.Introduction*/
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Table Time</title>
+	</head>
+	<body>
+		<h1 style="font-family:Arial">Tables Are Mega Sweet!</h1>
+	    <img src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00R9JPDN4&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=httpcodecadan-20">
+	    <a href="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00R9JPDN4&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=httpcodecadan-20">
+	    <img src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00R9JPDN4&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=httpcodecadan-20">
+        </a>
+	</body>
+</html>
+
+/*2.What are tables?*/
+
+<html>
+    <head>
+        <title>Table Time</title>
+    </head>
+    
+    <body>
+        <table></table>
+        
+        
+    </body>
+
+</html>
+
+/*3.Rows of information*/
+
+<html>
+    <head>
+        <title>Table Time</title>
+    </head>
+    
+    <body>
+        
+        <table>
+            <tr></tr>
+            <!-- Add two more rows below this! -->
+            <tr></tr>
+            <tr></tr>
+            
+        </table>
+        
+    </body>
+
+</html>
+
+/*4.A single column*/
+
+<html>
+    <head>
+        <title>Table Time</title>
+    </head>
+    
+    <body>
+        
+        <table border="1px">
+            <tr>
+                <td>One</td>
+            </tr>
+            
+            <tr>
+                <td>Two</td>
+            </tr>
+            
+            <tr>
+                <td>Three</td>
+            </tr>
+        </table>
+        
+    </body>
+
+</html>
+
+
+/*Adding a second column*/
+
+<html>
+    <head>
+        <title>Table Time</title>
+    </head>
+    
+    <body>
+        
+        <table border="1px">
+            <tr>
+                <td>King Kong</td>
+                <td>1933</td>     
+            </tr>
+            
+            <tr>
+                <td>Dracula</td>
+                <td>1897</td>
+            </tr>
+            
+            <tr>
+                <td>Bride of Frankenstein</td>
+                <td>1935</td>
+            </tr>
+        </table>
+        
+    </body>
+
+</html>
+
+/*6.Head of the table*/
+
+<html>
+    <head>
+        <title>Table Time</title>
+    </head>
+    
+    <body>
+        
+        <table border="1px">
+            
+                <tr>
+                    <td>King Kong</td>
+                    <td>1933</td>     
+                </tr>
+                
+                <tr>
+                    <td>Dracula</td>
+                    <td>1897</td>
+                </tr>
+                
+                <tr>
+                    <td>Bride of Frankenstein</td>
+                    <td>1935</td>
+                </tr>
+            
+        </table>
+        
+    </body>
+
+</html>
+
+/*7.Table Heads*/
+
+<html>
+    <head>
+        <title>Table Time</title>
+    </head>
+    
+    <body>
+        
+        <table border="1px">
+            <thead>
+                <p>Section 1</p>
+                <tr>
+                    <th align="center">Famous Monster</th>
+                        <th align="center">Birth Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>King Kong</td>
+                    <td>1933</td>     
+                </tr>
+                
+                <tr>
+                    <td>Dracula</td>
+                    <td>1897</td>
+                </tr>
+                
+                <tr>
+                    <td>Bride of Frankenstein</td>
+                    <td>1935</td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </body>
+
+</html>
+
+/*8.Naming your table*/
+
+<html>
+    <head>
+        <title>Table Time</title>
+    </head>
+    
+    <body>
+        
+        <table border="1px">
+            <thead>
+                <tr>
+                    <th colspan="2">Famous Monsters by Birth Year</th>
+                </tr>
+                <tr>
+                    <th>Famous Monster</th>
+                    <th>Birth Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>King Kong</td>
+                    <td>1933</td>     
+                </tr>
+                
+                <tr>
+                    <td>Dracula</td>
+                    <td>1897</td>
+                </tr>
+                
+                <tr>
+                    <td>Bride of Frankenstein</td>
+                    <td>1935</td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </body>
+
+</html>
+
+/*9.Style that head!*/
+
+<html>
+    <head>
+        <title>Table Time</title>
+    </head>
+    
+    <body>
+        
+        <table style="border-collapse:collapse;">
+            <thead>
+                <tr>
+                    <th colspan="2" style="font-size:12px; color:red"><em>Famous Monsters by Birth Year</em></th>
+                </tr>
+                <tr style="border-bottom:1px solid black;">
+                    <th style="padding:5px;"><em>Famous Monster</th></em>
+                    <th style="padding:5px;border-left:1px solid black;"><em>Birth Year</em></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="padding:5px;">King Kong</td>
+                    <td style="padding:5px;border-left:1px solid black;">1933</td>     
+                </tr>
+                
+                <tr>
+                    <td style="padding:5px;">Dracula</td>
+                    <td style="padding:5px;border-left:1px solid black;">1897</td>
+                </tr>
+                
+                <tr>
+                    <td style="padding:5px;">Bride of Frankenstein</td>
+                    <td style="padding:5px;border-left:1px solid black;">1944</td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </body>
+
+</html>
+
+/*10.Recap*/
+
+<html>
+    <head>
+        <title>Table Time</title>
+    </head>
+    
+    <body>
+        
+        <table style="border-collapse:collapse;">
+            <thead>
+                <tr>
+                    <th colspan="2" style="font-size:12px; color:red"><em>Famous Monsters by Birth Year</em></th>
+                </tr>
+                <tr style="border-bottom:1px solid black;">
+                    <th style="padding:5px;"><em>Famous Monster</th></em>
+                    <th style="padding:5px;border-left:1px solid black;"><em>Birth Year</em></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="padding:5px;">King Kong</td>
+                    <td style="padding:5px;border-left:1px solid black;">1933</td>     
+                </tr>
+                
+                <tr>
+                    <td style="padding:5px;">Dracula</td>
+                    <td style="padding:5px;border-left:1px solid black;">1897</td>
+                </tr>
+                
+                <tr>
+                    <td style="padding:5px;">Bride of Frankenstein</td>
+                    <td style="padding:5px;border-left:1px solid black;">1944</td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </body>
+
+</html>
+
+/*11.'Div'ide and conquer*/
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Result</title>
+	</head>
+	<body>
+		<div style="width:50px; height:50px; background-color:red"></div>
+		<div style="width:50px; height:50px; background-color:blue"></div>
+		<div style="width:50px; height:50px; background-color:green"></div>
+		<div style="width:50px; height:50px; background-color:yellow"></div>
+		<div style="width:50px; height:50px; background-color:blue"></div>
+		<div style="width:50px; height:50px; background-color:green"></div>
+		<div style="width:50px; height:50px; background-color:red"></div>
+		<div style="width:50px; height:50px; background-color:blue"></div>
+		
+	</body>
+</html>
+
+
+/*12.Link it!*/
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Result</title>
+	</head>
+	<body>
+		<div style="width:50px; height:50px; background-color:red"></div>
+		<div style="width:50px; height:50px; background-color:blue"></div>
+		<a href="https://youtu.be/tD_ujBJiSB0"><div style="width:50px; height:50px; background-color:green"></div></a>
+		<div style="width:50px; height:50px; background-color:yellow"></div>
+	</body>
+</html>
+
+
+/*13.Spantastic*/
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<span style="color:red"><p>This text is black, except for the word red!</p></span>
+	</body>
+</html>
+
+
+/*14.Span is the man*/
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Result</title>
+	</head>
+	<body>
+		<p>My favorite font is <span style="font-family:impact">Impact</span>!</p>
+	</body>
+</html>
+
+/*15.Recap*/
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ye Olde Fancye Booke</title>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+	</head>
+	<body>
+		<h3>Ye Olde Storye</h3>
+		<p><span>A</span> long time ago there was an intrepid young student who wanted to learn CSS...</p>
+	</body>
+</html>
